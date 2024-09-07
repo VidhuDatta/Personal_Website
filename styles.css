@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #f0f0f0;
+    background-color: #2a2a2a; /* Dark gray to suit header/footer */
+}
+
+/* Header */
+header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffa500;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6f00;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #404040; /* A soft dark color to contrast the text */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #f0f0f0; /* White text for readability */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 3px solid #ffa500;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    color: #fbff00ff;
+    font-weight: 600;
+}
+
+h3 {
+    margin-top: 0;
+    color: #ffa500;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+p {
+    margin: 0 0 15px;
+    font-size: 1.1em;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6f00;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6f00;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+/* Image Styling */
+/* Image Styling */
+.intro img {
+    width: 250px; /* Set the width to control the size */
+    height: 250px; /* Set equal height for a square */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #ffa500; /* Optional: adds a border for styling */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
+    margin-bottom: 15px; /* Adds space below the image */
+}
+
+/* Optional: Style for lazy-loaded images */
+
+
